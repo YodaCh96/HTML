@@ -15,7 +15,21 @@ HTML is the standard markup language for creating Web pages.
 
 Below is a visualization of an HTML page structure:
 
-![Page Structure](images/Page_Structure.PNG)
+<!--![Page Structure](images/page_structure.PNG)-->
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page title</title>
+  </head>
+  <body>
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+  </body>
+</html>
+```
 
 ## HTML Tag List
 
@@ -91,7 +105,7 @@ Below is a visualization of an HTML page structure:
 |`<p>`|Defines a paragraph|:heavy_check_mark:|[Example 2][Ex2]|
 |`<param>`|Defines a parameter for an object||
 |`<picture>`|Defines a container for multiple image resources||
-|`<pre>`|Defines preformatted text|:heavy_check_mark:|
+|`<pre>`|Defines preformatted text|:heavy_check_mark:|[Example 5][Ex5]|
 |`<progress>`|Represents the progress of a task||
 |`<q>`|Defines a short quotation||
 |`<rp>`|Defines what to show in browsers that do not support ruby annotations||
@@ -133,3 +147,4 @@ Below is a visualization of an HTML page structure:
 [Ex2]: src/02_example.html
 [Ex3]: src/03_example.html
 [Ex4]: src/04_example.html
+[Ex5]: src/05_example.html
